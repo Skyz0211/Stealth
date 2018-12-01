@@ -6,8 +6,8 @@ client = commands.Bot(command_prefix='st?')
 
 @client.event #Ele cria um evento
 async def on_ready(): #Quando ele estiver pronto.
-	#Ele vai imprimir isso no console.
-	#Daqui...
+    #Ele vai imprimir isso no console.
+    #Daqui...
     print("\n Logado como: {0.user}.\n  -ID: {0.user.id}\n".format(client))
     print("\n  Desenvolvido por: github.com/NathanXG!! \n")
     #...até aqui!
